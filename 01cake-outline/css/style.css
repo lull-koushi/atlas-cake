@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* 共通パーツ */
+html{
+  font-size: 16px;  /* font-size:文字サイズ */
+}
+
+body{
+  color: #624649;  /* color:文字色 */
+  font-size: 1rem;
+  font-family: "YuGothic",  Yu Gothic,  sans-serif;  /* font-family:文字のスタイル */
+}
+
+ul,li,ol{
+  list-style-type: none;  /* list-style-type:リスト要素の際に出てくる「・」など */
+}
+
+a{
+  text-decoration: none;  /* text-decoration:テキストのデコレーション（下線とか） */
+  transition: 0.6s;  /* transition:cssが反映される時間（ゆっくり色を変えるなどに使用）; */
+}
+
+a:hover{
+  transition: 0.6s;
+}
+
+.container{
+  max-width: 1024px; /* max-width:最大横幅 */
+  width: 90%; /* width:横幅 */
+  margin: 0 auto;
+}
